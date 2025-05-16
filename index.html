@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>差し込みテストページ</title>
+  <style>
+    .banner-slot {
+      width: 300px;
+      height: 250px;
+      border: 1px dashed gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>GitHub Pages テスト</h1>
+
+<div class="banner-slot">
+  <!-- Firebaseからのバナーがここに差し込まれる -->
+  loading...
+</div>
+
+<!-- サービスタグを差し込む -->
+<script src="service.js" data-tenant-id="1234" data-page-url="/"></script>
+
+</body>
+</html>
